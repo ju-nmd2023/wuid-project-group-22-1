@@ -1,0 +1,20 @@
+/* ------ THANK YOU PAGE ------ */
+.thanx {
+  display: flex;
+  height: 838px;
+}
+.thax h1 {
+  line-height: 70px;
+}
+.thanx h3 {
+  line-height: 60px;
+}
+
+@media only screen and (min-width: 375px) {
+}
+
+@media only screen and (min-width: 600px) {
+}
+
+@media only screen and (min-width: 1300px) {
+}

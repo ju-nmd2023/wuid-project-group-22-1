@@ -1,0 +1,68 @@
+/* ====== ABOUT PAGE ====== */
+.intro {
+  height: 504px;
+  width: 100%;
+  background-color: rgba(201, 200, 198, 1);
+  text-align: center;
+}
+
+.sub-head {
+  font-weight: bold;
+  padding: 90px 0 10px 0;
+}
+
+.about {
+  padding-bottom: 100px;
+}
+
+@media only screen and (min-width: 320px) {
+  .about-page {
+    height: 1265px;
+  }
+
+  .about {
+    margin: 10px;
+  }
+
+  .about .sub-head {
+    width: 100%;
+    padding-top: 50px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+}
+
+@media only screen and (min-width: 1300px) {
+  /* ====== ABOUT PAGE ====== */
+  .about-page {
+    height: auto;
+  }
+  .intro {
+    height: 504px;
+    width: 100%;
+  }
+
+  .intro h2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .intro p {
+    width: 730px;
+  }
+
+  .sub-head {
+    padding: 90px 0 10px 0;
+    margin-left: 185px;
+  }
+
+  .about {
+    padding-bottom: 100px;
+    width: 90%;
+  }
+
+  .about p {
+    width: 50rem;
+  }
+}

@@ -1,0 +1,230 @@
+/* ------ POSTERS PAGE ------ */
+.intro-posters {
+  width: 100%;
+  background-color: rgba(201, 200, 198, 1);
+}
+
+.intro-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 0;
+  height: auto;
+}
+
+.categories-head {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 26px;
+  padding-bottom: 5px;
+}
+
+.sortfilter {
+  padding-bottom: 10px;
+  font-size: 14px;
+}
+
+.categorie_alternatives {
+  font-weight: 600;
+  font-size: 16px;
+  padding-top: 7px;
+}
+
+.box {
+  background: rgba(255, 255, 255, 1);
+  width: 320px;
+  height: 418px;
+}
+
+.box figcaption {
+  padding-left: 13px;
+}
+
+.box figcaption .artist {
+  font-size: 0.9rem;
+}
+
+.box figcaption .name {
+  font-weight: 600;
+}
+
+.arrow {
+  width: 12px;
+}
+@media only screen and (min-width: 320px) {
+  /* ====== POSTERS PAGE ====== */
+  #categories,
+  #intro-img {
+    display: none;
+  }
+
+  #intro-head {
+    display: flex;
+    width: 100%;
+    padding-top: 100px;
+  }
+
+  .box {
+    width: 9rem;
+    height: 17rem;
+  }
+  .box img {
+    width: 9rem;
+    height: 10rem;
+  }
+
+  .poster-categories {
+    margin-bottom: 170px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 10px;
+    padding: 20px 10px 0 10px;
+    row-gap: 20px;
+    margin-left: 0;
+  }
+
+  .box figcaption {
+    padding-left: 13px;
+  }
+
+  .box figcaption .artist {
+    font-size: 0.9rem;
+  }
+
+  .box figcaption .name {
+    font-weight: 600;
+  }
+
+  .arrow {
+    width: 12px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  /* ====== POSTER PAGE ====== */
+
+  #categories,
+  #intro-img {
+    display: none;
+  }
+
+  .intro-posters {
+    padding-top: 108px;
+    width: 100%;
+  }
+
+  #intro-head {
+    display: flex;
+    width: 100%;
+    padding-top: 30px;
+  }
+
+  .poster-categories {
+    padding-top: 54px;
+    padding-bottom: 170px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+    row-gap: 34px;
+    width: 100%;
+    margin: 0;
+  }
+
+  .box {
+    background: rgba(255, 255, 255, 1);
+    width: 14rem;
+    height: 20rem;
+  }
+
+  .box img {
+    width: 14rem;
+    height: 15rem;
+  }
+
+  .box figcaption {
+    padding-left: 13px;
+  }
+
+  .box figcaption .artist {
+    font-size: 14px;
+  }
+
+  .box figcaption .name {
+    font-weight: 600;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  #intro-head {
+    display: none;
+  }
+  #intro-img {
+    display: flex;
+    width: 100%;
+  }
+
+  .intro-posters {
+    height: auto;
+    padding-top: 105px;
+  }
+
+  .poster-categories {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    row-gap: 34px;
+    width: 100%;
+    margin: 0;
+    padding-left: 220px;
+    padding-bottom: 100px;
+  }
+
+  .box {
+    background: rgba(255, 255, 255, 1);
+    width: 320px;
+    height: 450px;
+  }
+
+  .box img {
+    width: 320px;
+    height: 350px;
+  }
+
+  #categories {
+    display: inline-block;
+    padding-left: 20px;
+  }
+
+  /* sticky categories  
+https://www.youtube.com/watch?v=hPrXq9HLnrk*/
+  #categories:not(.sticky) {
+    margin-left: 10px;
+    position: absolute;
+    bottom: 100px;
+  }
+
+  .sticky {
+    margin-left: 10px;
+    position: fixed;
+    top: 150px;
+  }
+
+  #categorie-alternatives {
+    padding-bottom: 20px;
+    font-weight: 200;
+  }
+
+  .posters {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+
+  #categories-head {
+    font-weight: 400;
+  }
+
+  .arrow {
+    width: 12px;
+  }
+}

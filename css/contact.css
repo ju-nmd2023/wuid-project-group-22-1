@@ -1,0 +1,153 @@
+/* ------ CONTACT PAGE ------- */
+
+.input {
+  display: flex;
+  flex-direction: column;
+}
+
+#c-fname,
+#c-email {
+  border: none;
+  outline: none;
+  padding: 0 20px 0 20px;
+}
+
+#c-message {
+  padding: 20px 20px 20px 20px;
+  border: none;
+  outline: none;
+  resize: none;
+}
+
+#c-submit {
+  background-color: rgba(173, 169, 161, 0.5);
+  color: #333;
+  border: none;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 375px) {
+  /* ====== CONTACT PAGE ====== */
+  .contact-page {
+    height: 1200px;
+    row-gap: 100px;
+  }
+
+  .contact {
+    display: inline-block;
+    padding-left: 25px;
+  }
+
+  label[for="c-email"],
+  [for="c-message"] {
+    padding-bottom: 5px;
+  }
+
+  .input {
+    display: inline-block;
+    width: 325px;
+  }
+
+  #c-fname,
+  #c-email {
+    width: 325px;
+    height: 40px;
+    border: none;
+    outline: none;
+  }
+
+  #c-message {
+    width: 325px;
+    height: 200px;
+  }
+
+  #c-submit {
+    background-color: rgba(173, 169, 161, 0.5);
+    color: #333;
+    font-size: 16px;
+    width: 325px;
+    height: 60px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  /* ====== CONTACT PAGE ====== */
+  .contact-page {
+    height: 1100px;
+    padding: 0 70px 0 70px;
+  }
+
+  .contact {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 100px;
+  }
+
+  label[for="c-email"],
+  [for="c-message"] {
+    padding-bottom: 5px;
+  }
+
+  .input {
+    padding-bottom: 30px;
+  }
+
+  #c-fname,
+  #c-email {
+    width: 450px;
+    height: 40px;
+  }
+
+  #c-message {
+    width: 450px;
+    height: 320px;
+  }
+
+  #c-submit {
+    font-size: 20px;
+    width: 450px;
+    height: 60px;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  /* ====== CONTACT PAGE ====== */
+  .contact-page {
+    height: 1100px;
+    row-gap: 100px;
+  }
+
+  .contact {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 500px;
+  }
+
+  label[for="c-email"],
+  [for="c-message"] {
+    padding-bottom: 5px;
+  }
+
+  .input {
+    padding-bottom: 30px;
+  }
+
+  #c-fname,
+  #c-email {
+    width: 450px;
+    height: 40px;
+  }
+
+  #c-message {
+    width: 450px;
+    height: 320px;
+  }
+
+  #c-submit {
+    font-size: 20px;
+    width: 450px;
+    height: 60px;
+  }
+}

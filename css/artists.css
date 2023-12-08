@@ -1,0 +1,109 @@
+/* ------ ARTISTS PAGE ------ */
+
+.artist figcaption {
+  text-align: center;
+}
+
+.artist figcaption .read-more {
+  text-decoration: underline;
+}
+
+@media only screen and (min-width: 320px) {
+  .artist-page {
+    height: 2030px;
+    padding-top: 70px;
+  }
+
+  .artists {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 50px;
+    padding-top: 50px;
+  }
+
+  .artist figcaption {
+    width: 20rem;
+    padding: 10px;
+  }
+
+  .artist img {
+    width: 20em;
+    height: auto;
+    padding-bottom: 10px;
+  }
+
+  .artist figcaption .read-more {
+    font-weight: 600;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .artist-page {
+    height: 800px;
+  }
+
+  .artists {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: first baseline;
+    column-gap: 10px;
+    padding-top: 20px;
+  }
+
+  .artist figcaption {
+    width: 12rem;
+  }
+
+  .artists figcaption p {
+    font-size: 14px;
+    width: 11rem;
+  }
+
+  .artist img {
+    width: 12rem;
+    height: auto;
+    padding-bottom: 10px;
+  }
+
+  .artist figcaption .read-more {
+    font-weight: 600;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .artist-page {
+    display: flex;
+    height: 1000px;
+    padding-top: 100px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .artists {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: first baseline;
+    column-gap: 40px;
+    padding-top: 50px;
+    padding: 10px;
+  }
+
+  .artist figcaption {
+    width: 400px;
+  }
+
+  .artists figcaption p {
+    font-size: 16px;
+    width: 380px;
+  }
+
+  .artist img {
+    width: 400px;
+    height: 507.317px;
+    padding-bottom: 10px;
+  }
+
+  .artist figcaption .read-more {
+    font-weight: 600;
+  }
+}

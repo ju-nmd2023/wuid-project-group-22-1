@@ -1,0 +1,272 @@
+/* ------ CHECKOUT PAGE ------ */
+.checkout-page {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  justify-content: center;
+  padding-top: 200px;
+  row-gap: 50px;
+}
+
+.checkout-page form {
+  padding-top: 50px;
+}
+
+form .input input,
+select {
+  width: 100%;
+}
+
+select,
+.input2 input,
+.input input {
+  border: 1px solid #333;
+  padding-left: 20px;
+  outline: none;
+  margin: 0;
+  color: #333;
+}
+
+.input {
+  display: flex;
+  margin: 0;
+}
+
+.input2 {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+}
+
+#finame,
+#lname,
+#pnumber,
+#city,
+#expire,
+#security-code {
+  outline: none;
+}
+
+.pay h3,
+.ship h3 {
+  padding-bottom: 20px;
+}
+
+.cardform {
+  background-color: #fff;
+  border-bottom: 1px solid #333;
+}
+
+#card-info {
+  display: none;
+  padding: 0px 50px 50px 50px;
+}
+
+#card-info form {
+  padding-top: 0;
+  padding-bottom: 0px;
+}
+
+input[type="radio"] {
+  background-color: rgba(217, 217, 217, 1);
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 20px;
+  padding: 50px;
+  text-align: center;
+}
+
+.confirm-button {
+  background-color: rgba(173, 169, 161, 0.5);
+  height: 4rem;
+  width: 20rem;
+  line-height: 4rem;
+  text-align: center;
+}
+
+.confirm-button a {
+  text-decoration: none;
+  color: #333;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.cancel-button a {
+  text-decoration: none;
+  color: rgba(85, 85, 85, 1);
+}
+
+.cancel-button a:hover {
+  font-size: 600;
+}
+
+@media only screen and (min-width: 320px) {
+  .checkout-page {
+    width: auto;
+    padding-top: 120px;
+  }
+  .payement,
+  .shipping {
+    width: 100%;
+    height: auto;
+    padding: 5px 0px 5px 0px;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 20px;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #333;
+  }
+
+  .cardform {
+    width: 100%;
+  }
+  #card-info {
+    display: none;
+    height: 200px;
+  }
+  #card-info form {
+    width: 100%;
+    padding-top: 0;
+    padding-bottom: 0px;
+  }
+
+  .input2 input {
+    width: 50%;
+    height: 4rem;
+    padding-left: 20px;
+    outline: none;
+  }
+  form .input input,
+  select {
+    height: 4rem;
+    padding-left: 20px;
+  }
+
+  input[type="radio"] {
+    height: 1.5rem;
+    width: 1.5rem;
+  }
+
+  .payement-card {
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 20px;
+    align-items: center;
+  }
+  .payement img,
+  .card-payement-img img,
+  .shipping img {
+    height: 2rem;
+    display: flex;
+  }
+
+  .card-payement-img {
+    width: 100%;
+    display: flex;
+    padding: 10px 0 10px 0;
+  }
+
+  .card-payement-img .bigCard {
+    height: 1.5rem;
+  }
+  .ship {
+    width: 300px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .checkout-page {
+    padding-top: 150px;
+  }
+  form {
+    width: 580px;
+  }
+  .payement {
+    width: 580px;
+  }
+  .ship {
+    width: 580px;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .payement,
+  .shipping {
+    width: 1233px;
+    padding: 25px 0px 25px 0px;
+  }
+
+  .cardform {
+    width: 1233px;
+  }
+
+  .input2 input {
+    width: 50%;
+    height: 60px;
+    padding-left: 20px;
+    outline: none;
+  }
+
+  .payement,
+  .shipping {
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    border-bottom: 1px solid #333;
+  }
+
+  .payement-card {
+    background-color: #fff;
+    width: 1233px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 25px 0px 25px 0px;
+    align-items: center;
+  }
+  .ship {
+    width: 1260px;
+  }
+
+  .payement img,
+  .card-payement-img img,
+  .card-payement-img .bigCard,
+  .shipping img {
+    height: 3rem;
+    display: inline-flex;
+    font-size: 16px;
+  }
+
+  form {
+    width: 1260px;
+  }
+
+  form .input input,
+  select {
+    height: 60px;
+    padding-left: 20px;
+  }
+
+  input[type="radio"] {
+    height: 2.5rem;
+    width: 2.5rem;
+  }
+  #card-info {
+    height: 200px;
+    padding: 0px 50px 50px 50px;
+  }
+
+  #card-info form {
+    width: 80%;
+  }
+}
