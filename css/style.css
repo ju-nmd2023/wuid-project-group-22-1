@@ -618,7 +618,7 @@ footer a {
   }
 
   .nav {
-    width: 1300px;
+    width: 100%;
   }
 
   .nav1 p {
@@ -628,6 +628,7 @@ footer a {
   }
   .nav2 {
     height: 80px;
+    width: 100%;
   }
 
   .nav2 .icons img {

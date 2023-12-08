@@ -9,28 +9,44 @@
 .sub-head {
   font-weight: bold;
   padding: 90px 0 10px 0;
+  margin-left: 0;
 }
 
 .about {
-  padding-bottom: 100px;
+  margin: 10;
+  padding: 0 20px 100px 20px;
 }
 
 @media only screen and (min-width: 320px) {
   .about-page {
-    height: 1265px;
+    height: 1365px;
   }
 
-  .about {
-    margin: 10px;
+  .intro {
+    padding: 0 10px 0 10px;
   }
 
   .about .sub-head {
-    width: 100%;
     padding-top: 50px;
+  }
+
+  .about p {
+    padding-bottom: 20px;
   }
 }
 
 @media only screen and (min-width: 600px) {
+  .intro p {
+    width: 530px;
+  }
+  .about {
+    width: 100%;
+  }
+
+  .about p {
+    width: 30rem;
+    margin: 0;
+  }
 }
 
 @media only screen and (min-width: 1300px) {
@@ -54,15 +70,16 @@
 
   .sub-head {
     padding: 90px 0 10px 0;
-    margin-left: 185px;
+    margin-left: 0;
   }
 
   .about {
     padding-bottom: 100px;
-    width: 90%;
+    width: 100%;
   }
 
   .about p {
     width: 50rem;
+    margin: 0;
   }
 }
