@@ -125,6 +125,11 @@
     column-gap: 500px;
   }
 
+  .contact form {
+    display: flex;
+    flex-direction: column;
+  }
+
   label[for="c-email"],
   [for="c-message"] {
     padding-bottom: 5px;
