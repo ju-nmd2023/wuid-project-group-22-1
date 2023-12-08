@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/contact.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&family=Open+Sans:wght@400;600;700&family=Overpass+Mono&family=PT+Serif&display=swap"
+    rel="stylesheet" />
+  <!-- The following line of code was adapted from https://github.com/Remix-Design/RemixIcon Accessed: 2023-11-25 -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="icon" type="image/x-icon" href="img/logo-code.svg" />
+  <script type="module" src="javascript/main.js"></script>
+  <script src="functions.js" defer></script>
+  <title>Contact Us - ENE</title>
+</head>
+
+<body>
+  <my-header></my-header>
+  <main>
+    <div class="contact-page">
+      <h2>CONTACT US</h2>
+      <div class="contact">
+        <form>
+          <div class="input">
+            <label for="c-fname">Full Name</label>
+            <input type="text" id="c-fname" />
+          </div>
+          <div class="input">
+            <label for="c-email">E-Mail</label>
+            <input type="email" id="c-email" />
+          </div>
+          <div class="input">
+            <label for="c-message">Message</label>
+            <textarea id="c-message"></textarea>
+          </div>
+          <div class="input">
+            <input type="submit" id="c-submit" value="SUBMIT" />
+          </div>
+        </form>
+        <div class="info">
+          <h2>CONTACT</h2>
+          <p>contact@enepostery.com</p>
+          <p>+46 71 234 56 78</p>
+          <br /><br />
+          <h2>POST ADRESS</h2>
+          <p>553 18</p>
+          <p>Gjuterigatan 5, Jönköping Sweden</p>
+          <br /><br />
+        </div>
+      </div>
+    </div>
+  </main>
+  <my-footer></my-footer>
+</body>
+
+</html>

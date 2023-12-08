@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/product.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&family=Open+Sans:wght@400;600;700&family=Overpass+Mono&family=PT+Serif&display=swap"
+    rel="stylesheet" />
+  <link rel="icon" type="image/x-icon" href="img/logo-code.svg" />
+  <script type="text/javascript" src="javascript/main.js" defer></script>
+  <script type="text/javascript" src="javascript/functions.js" defer></script>
+  <script type="text/javascript" src="javascript/product.js" defer></script>
+  <title>Tokyo Drift - Poster - Vanellimelli - ENE</title>
+</head>
+
+<body>
+  <my-header></my-header>
+  <main>
+    <a class="goback" href="posters.html">
+      <img class="arrowleft" src="img/arrowLeft.png" alt="arrow" /> Back</a>
+    <div class="grid-container">
+      <div class="grid1and2">
+        <div class="grid-item">
+          <div class="slide">
+            <img id="show-image" src="img/tokyo.jpg" alt="img1" />
+          </div>
+          <div class="slide">
+            <img id="show-image2"
+              src="https://wallofart.se/cdn/shop/products/Vanellimelli_TOKYO_DRIFT_50x70_web_a5aad06d-3b3b-474e-95a1-32fe9be2379d_x450.jpg?v=1685657743"
+              alt="img2" />
+          </div>
+          <div class="slide">
+            <img id="show-image3"
+              src="https://wallofart.se/cdn/shop/products/WOA_HOME_DIG-40_7c6b4c2f-2aff-4d19-a8c2-1e9dfc957348_1000x.jpg?v=1685657743"
+              alt="img3" />
+          </div>
+          <div class="slide">
+            <img id="show-image4"
+              src="https://wallofart.se/cdn/shop/products/WOA_HOME_ANALOG-2_9e8505b2-9897-49af-9293-88fe01369295_1000x.jpg?v=1685657743"
+              alt="img4" />
+          </div>
+        </div>
+
+        <div class="grid-item2">
+          <img id="sticky-img" src="img/tokyo.jpg" alt="img5" />
+          <div class="main-slide">
+            <img id="my-image" src="img/tokyo.jpg" alt="img5" class="hidden" />
+
+            <img id="my-image2"
+              src="https://wallofart.se/cdn/shop/products/Vanellimelli_TOKYO_DRIFT_50x70_web_a5aad06d-3b3b-474e-95a1-32fe9be2379d_x450.jpg?v=1685657743"
+              alt="img2" class="hidden" />
+
+            <img id="my-image3"
+              src="https://wallofart.se/cdn/shop/products/WOA_HOME_DIG-40_7c6b4c2f-2aff-4d19-a8c2-1e9dfc957348_1000x.jpg?v=1685657743"
+              alt="img3" class="hidden" />
+
+            <img id="my-image4"
+              src="https://wallofart.se/cdn/shop/products/WOA_HOME_ANALOG-2_9e8505b2-9897-49af-9293-88fe01369295_1000x.jpg?v=1685657743"
+              alt="img4" class="hidden" />
+          </div>
+
+          <div class="slideMobile">
+            <div class="slideM">
+              <img id="show-image" src="img/tokyo.jpg" alt="img1" />
+            </div>
+            <div class="slideM">
+              <img id="show-image2"
+                src="https://wallofart.se/cdn/shop/products/Vanellimelli_TOKYO_DRIFT_50x70_web_a5aad06d-3b3b-474e-95a1-32fe9be2379d_x450.jpg?v=1685657743"
+                alt="img2" />
+            </div>
+            <div class="slideM">
+              <img id="show-image3"
+                src="https://wallofart.se/cdn/shop/products/WOA_HOME_DIG-40_7c6b4c2f-2aff-4d19-a8c2-1e9dfc957348_1000x.jpg?v=1685657743"
+                alt="img3" />
+            </div>
+            <div class="slideM">
+              <img id="show-image4"
+                src="https://wallofart.se/cdn/shop/products/WOA_HOME_ANALOG-2_9e8505b2-9897-49af-9293-88fe01369295_1000x.jpg?v=1685657743"
+                alt="img4" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="grid-item3">
+        <div class="tokyo-heart">
+          <h3 id="t">Tokyo Drift</h3>
+          <img id="heart" src="img/heart.png" alt="" />
+        </div>
+
+        <p id="v">Vanellimelli</p>
+
+        <h2 id="price">€12</h2>
+        <span class="priceMobile">
+          <p id="x">Choose size</p>
+          <h2 id="y">€12</h2>
+        </span>
+        <div class="sizes">
+          <div class="sizebutton">30 x 40</div>
+          <div class="sizebutton">40 x 50</div>
+          <div class="sizebutton">50 x 70</div>
+          <div class="sizebutton">70 x 100</div>
+        </div>
+        <div id="sizeAlternative">
+          <form>
+            <label for="chooseSize">
+              <p id="x">Choose size</p>
+            </label>
+            <select name="chooseSize" id="chooseSize">
+              <option value="small">30 x 40</option>
+              <option value="regular">40 x 50</option>
+              <option value="medium">50 x 70</option>
+              <option value="large">70 x 100</option>
+            </select>
+          </form>
+        </div>
+        <div class="confirm-button">
+          <p>Add to bag</p>
+        </div>
+        <div class="productInfo">
+          <span class="productInfoOpt">
+            <p>ABOUT THE ARTIST</p>
+            <img src="img/arrow.png" alt="downwards arrow" class="arrow" />
+          </span>
+          <hr />
+          <span class="productInfoOpt">
+            <p>DETAILS</p>
+            <img src="img/arrow.png" alt="downwards arrow" class="arrow" />
+          </span>
+          <hr />
+          <span class="productInfoOpt">
+            <p>DELIVERY AND RETURNS</p>
+            <img src="img/arrow.png" alt="downwards arrow" class="arrow" />
+          </span>
+          <hr />
+          <span class="productInfoOpt">
+            <p>SUPPORT</p>
+            <img src="img/arrow.png" alt="downwards arrow" class="arrow" />
+          </span>
+          <hr />
+        </div>
+      </div>
+    </div>
+  </main>
+  <my-footer></my-footer>
+</body>
+
+</html>
